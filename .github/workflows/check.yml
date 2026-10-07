@@ -17,6 +17,7 @@ jobs:
   android:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         abi: [arm64-v8a, x86_64]
     steps:
@@ -28,8 +29,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - uses: android-actions/setup-android@v4
+        with:
+          packages: ''
+          log-accepted-android-sdk-licenses: 'false'
       - name: Install Android compiler
         run: sdkmanager 'platforms;android-36' 'ndk;30.0.16248370'
       - run: python tools/fetch_unicorn.py
       - name: Compile native runtime and Java controls
-        run: ANDROID_NDK_HOME="$ANDROID_HOME/ndk/30.0.16248370" python tools/build_original_android.py --compile-only --abis ${{ matrix.abi }}
+        run: ANDROID_HOME="$ANDROID_SDK_ROOT" ANDROID_NDK_HOME="$ANDROID_SDK_ROOT/ndk/30.0.16248370" python tools/build_original_android.py --compile-only --abis ${{ matrix.abi }}
