@@ -13,6 +13,7 @@
     "native_hd/android/java/org/xuanyuan/originalhd/MainActivity.java": "8c0027dc9e9eae161e41174bd80b7eebbaf2e0c3924132a5c684d99f1e34e61e",
     "native_hd/android/offline_items.h": "8078f20a57ce491b51aae429eaa921ecb94f7bfb5197e2595e665068c33e98d8"
   },
-  "public_scope": "Android runtime source, build tools, new synthesized audio and geometric UI; original commercial program/data and recovered HD game textures remain local.",
-  "source_hash_format": "UTF-8 with LF line endings"
+  "public_scope": "Git includes Android runtime source, build tools, new synthesized audio and geometric UI. The unmodified original v0.7 APK is provided separately through GitHub Releases.",
+  "source_hash_format": "UTF-8 with LF line endings",
+  "apk_release_url": "https://github.com/jisongmuli/XuanyuanLianyaoluHD/releases/tag/v0.7"
 }

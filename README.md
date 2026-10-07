@@ -6,6 +6,12 @@
 
 当前对应 **v0.7**，最低 Android 9，包含 `arm64-v8a` 和 `x86_64`，高清画布为 1440×1920。程序不申请联网或短信权限。
 
+## 下载与安装
+
+[下载 v0.7 APK 安装包](https://github.com/jisongmuli/XuanyuanLianyaoluHD/releases/download/v0.7/xuanyuan-original-hd-v0.7.apk) · [发布说明](https://github.com/jisongmuli/XuanyuanLianyaoluHD/releases/tag/v0.7)
+
+Release 提供原来保存的 v0.7 APK，保持原签名和文件内容，没有重新打包。已安装同系列原签名版本时可直接覆盖安装以保留存档；若提示签名不匹配，请保留现有应用，不要直接卸载。新构建的测试签名与这个原安装包不同。
+
 ## v0.7 功能
 
 - 高清纹理与 918 个中文及数字字形；原游戏输入可通过方向键、确定、返回和完整 0–9 数字键操作。
@@ -16,7 +22,7 @@
 
 ## 仓库与素材范围
 
-仓库公开安卓 C++／Java 运行层、构建和音频生成脚本、新合成音频与代码绘制的战斗界面。原作程序、剧情数据、地图、高清游戏纹理与字形缓存由使用者在本地提供，已加入 `.gitignore`；APK、签名私钥和用户存档不上传。
+Git 源码公开安卓 C++／Java 运行层、构建和音频生成脚本、新合成音频与代码绘制的战斗界面。完整 APK 通过 Release 提供；原作程序、剧情数据、地图、高清游戏纹理与字形缓存可从该安装包导入到本地，已加入 `.gitignore`。签名私钥和用户存档不上传。
 
 原作程序与资源的权利归原权利人所有，不因运行层采用 GPL 而改变。运行层与本仓库新增代码使用 **GPL-2.0-or-later**；新合成音频使用 **CC0-1.0**；Noto Sans SC 字形遵循 **SIL OFL 1.1**。详见 [LICENSE](LICENSE) 和 [第三方说明](THIRD_PARTY_NOTICES.md)。
 
