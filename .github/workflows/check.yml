@@ -1,0 +1,35 @@
+name: Build and verify
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m compileall -q tools
+      - run: python tools/verify_project.py
+  android:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        abi: [arm64-v8a, x86_64]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Android compiler
+        run: sdkmanager 'platforms;android-36' 'ndk;30.0.16248370'
+      - run: python tools/fetch_unicorn.py
+      - name: Compile native runtime and Java controls
+        run: ANDROID_NDK_HOME="$ANDROID_HOME/ndk/30.0.16248370" python tools/build_original_android.py --compile-only --abis ${{ matrix.abi }}

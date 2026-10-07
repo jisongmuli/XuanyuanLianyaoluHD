@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.22)
+project(xuanyuan_original_hd LANGUAGES C CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+set(UNICORN_ARCH arm CACHE STRING "Only original game's ARM ISA" FORCE)
+set(UNICORN_BUILD_TESTS OFF CACHE BOOL "" FORCE)
+set(UNICORN_INSTALL OFF CACHE BOOL "" FORCE)
+set(UNICORN_LEGACY_STATIC_ARCHIVE OFF CACHE BOOL "" FORCE)
+set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
+# Unicorn's Android configure header is emitted in its own binary directory.
+include_directories(${CMAKE_BINARY_DIR}/unicorn)
+add_subdirectory(../../.toolchain/unicorn-source unicorn)
+add_library(xuanyuan SHARED runtime.cpp)
+target_link_libraries(xuanyuan PRIVATE unicorn android log z)
+target_compile_options(xuanyuan PRIVATE -Wall -Wextra -Wno-unused-parameter)
+# Android 15+ devices can use 16 KiB pages.
+target_link_options(xuanyuan PRIVATE -Wl,-z,max-page-size=16384)

@@ -1,0 +1,190 @@
+{
+  "version": "0.7",
+  "origin": "New original scores and deterministic synthesis; no external songs or recorded samples. Original soundtrack was not recovered.",
+  "sample_rate": 32000,
+  "music": [
+    {
+      "name": "title",
+      "file": "audio/title.ogg",
+      "duration_seconds": 45.714285714285715,
+      "bpm": 84,
+      "loop": true,
+      "peak": 0.6116203086585269,
+      "rms": 0.12499999892161309,
+      "sha256": "90db8b75c02e86a30d35ee9a4b2361863dd9d4369d0fa6d48c69e10815e65d00"
+    },
+    {
+      "name": "exploration",
+      "file": "audio/exploration.ogg",
+      "duration_seconds": 40.851063829787236,
+      "bpm": 94,
+      "loop": true,
+      "peak": 0.5353938597821702,
+      "rms": 0.12499968191466493,
+      "sha256": "09dffff0c43b9ae40dce716a3a848d9478ec5e32a04a4d5121507232a1643894"
+    },
+    {
+      "name": "palace",
+      "file": "audio/palace.ogg",
+      "duration_seconds": 50.526315789473685,
+      "bpm": 76,
+      "loop": true,
+      "peak": 0.5476125998189276,
+      "rms": 0.12499999438485052,
+      "sha256": "cab5555d5222d187045d8c41d3b8c53fc9489550bcfbc17633d4a6e06a4eeda6"
+    },
+    {
+      "name": "cave",
+      "file": "audio/cave.ogg",
+      "duration_seconds": 48.0,
+      "bpm": 80,
+      "loop": true,
+      "peak": 0.5712356353062451,
+      "rms": 0.12499974070046554,
+      "sha256": "de009b8b7daa0ae4320036f813ec2e9f770315ba7c69b28a92e75b4a9bdcd115"
+    },
+    {
+      "name": "underwater",
+      "file": "audio/underwater.ogg",
+      "duration_seconds": 43.63636363636363,
+      "bpm": 88,
+      "loop": true,
+      "peak": 0.5749139495803621,
+      "rms": 0.12499996637487691,
+      "sha256": "2eb2c7a5446664098bc0f4f2c228f25c144d1b586ff3170c4519260c04a25178"
+    },
+    {
+      "name": "battle",
+      "file": "audio/battle.ogg",
+      "duration_seconds": 29.09090909090909,
+      "bpm": 132,
+      "loop": true,
+      "peak": 0.5583414251776632,
+      "rms": 0.1250000297648862,
+      "sha256": "a068b23cb4c4f2745be36a54d25aa33cc9673b6b9e5c5e47dea7162b6d189feb"
+    },
+    {
+      "name": "boss",
+      "file": "audio/boss.ogg",
+      "duration_seconds": 33.10344827586207,
+      "bpm": 116,
+      "loop": true,
+      "peak": 0.6079347511968113,
+      "rms": 0.12499994838000186,
+      "sha256": "ef80c352bbc0788d59fc42f978af627d33a004061593607a410a938f1e384888"
+    }
+  ],
+  "effects": [
+    {
+      "name": "ui",
+      "file": "audio/ui.wav",
+      "duration_seconds": 0.12,
+      "loop": false,
+      "peak": 0.3799852012768517,
+      "rms": 0.1352000799448637,
+      "sha256": "b1ea57f8946b05f2fb1c25b49417fffaf9e3423054c5080bf832dd2dd0c3070c"
+    },
+    {
+      "name": "confirm",
+      "file": "audio/confirm.wav",
+      "duration_seconds": 0.24,
+      "loop": false,
+      "peak": 0.4695432497917445,
+      "rms": 0.13490525861775013,
+      "sha256": "57ffd509ac659266a5d7b07acff7bf651a0b05e7fb4e5ff2e1baf49051f4a17c"
+    },
+    {
+      "name": "cancel",
+      "file": "audio/cancel.wav",
+      "duration_seconds": 0.17,
+      "loop": false,
+      "peak": 0.45219271055194693,
+      "rms": 0.1593237068383853,
+      "sha256": "edb18aaff5ba76b4b8e9159e65af3df4cf46bd000acd424004dd79097e805313"
+    },
+    {
+      "name": "step",
+      "file": "audio/step.wav",
+      "duration_seconds": 0.12,
+      "loop": false,
+      "peak": 0.17269996378534314,
+      "rms": 0.019205114830207908,
+      "sha256": "c33553ded0fcb8e93e09c175b13d4a66949356d277705dd4fa9cfa7f3fca3ce8"
+    },
+    {
+      "name": "attack",
+      "file": "audio/attack.wav",
+      "duration_seconds": 0.34,
+      "loop": false,
+      "peak": 0.47738977951855976,
+      "rms": 0.09694692362373336,
+      "sha256": "eedc459e5579c5558d2a235a5f685c8cecdf820e6c839cb62aad991cbb5c16f0"
+    },
+    {
+      "name": "impact",
+      "file": "audio/impact.wav",
+      "duration_seconds": 0.26,
+      "loop": false,
+      "peak": 0.5799130819401802,
+      "rms": 0.09957387561683856,
+      "sha256": "a235ea6df21a7d935fc5e3f65f50c1222152380a359db2e8807d17d16333e49c"
+    },
+    {
+      "name": "magic",
+      "file": "audio/magic.wav",
+      "duration_seconds": 0.88,
+      "loop": false,
+      "peak": 0.3885314356439909,
+      "rms": 0.13278870782780122,
+      "sha256": "2d8bad637617ad88592dea159cdec567ba75647ee258a7a6733f0c94abb883a4"
+    },
+    {
+      "name": "heal",
+      "file": "audio/heal.wav",
+      "duration_seconds": 0.72,
+      "loop": false,
+      "peak": 0.75071031613452,
+      "rms": 0.265756168178446,
+      "sha256": "24faa89e74fba01a45c64b5ba0fedf39a46d6eb44f6d1450c2a4d36853070c5e"
+    },
+    {
+      "name": "teleport",
+      "file": "audio/teleport.wav",
+      "duration_seconds": 1.25,
+      "loop": false,
+      "peak": 0.44558499395516116,
+      "rms": 0.15801880456772538,
+      "sha256": "ba3089148e05900a27d3d920b1afdfad75fea602dea6247df7860f35d0b51e98"
+    },
+    {
+      "name": "capture",
+      "file": "audio/capture.wav",
+      "duration_seconds": 1.0,
+      "loop": false,
+      "peak": 0.7157875410181489,
+      "rms": 0.2570491357921468,
+      "sha256": "900a3e201734dffda5d777ce91564bab36788c6d315aa3a7b851e8f5820b0f69"
+    },
+    {
+      "name": "reward",
+      "file": "audio/reward.wav",
+      "duration_seconds": 1.45,
+      "loop": false,
+      "peak": 0.6718759569576913,
+      "rms": 0.22132990167360148,
+      "sha256": "0b72eb1576c9d108a518fcb75ebb3de6cba4e73a28912bd90980203b1a7f593b"
+    },
+    {
+      "name": "victory",
+      "file": "audio/victory.wav",
+      "duration_seconds": 2.8,
+      "loop": false,
+      "peak": 0.6239419012898497,
+      "rms": 0.2042389868856544,
+      "sha256": "a9acd33152b94fc228496fd63904a708dca59fc9ac914bfccfc02f50ab3917ed"
+    }
+  ],
+  "music_volume": 0.62,
+  "effects_volume": 0.8,
+  "license": "CC0-1.0 for the new composed audio assets"
+}

@@ -1,0 +1,18 @@
+{
+  "version": "0.7",
+  "apk_sha256": "9a6df89af423769878c1d8032d297b0930b914d7153483ca643d889cd62fa410",
+  "apk_bytes": 22929957,
+  "recovery": "Runtime sources recovered from recorded complete successful file patches and inspected source edits. Assets recovered from the matching local APK.",
+  "source_recovered_without_patch_errors": true,
+  "original_signing_private_key_recovered": false,
+  "original_signing_key_required_for_update": true,
+  "historical_android_emulator_validation": "Passed in the original build task; recovery has not rerun emulator validation.",
+  "source_files": {
+    "native_hd/android/runtime.cpp": "a8bfd60ff9b542e47f87f2050f3ac6044d7b0a4c66236552b1525235bff591a3",
+    "native_hd/android/java/org/xuanyuan/originalhd/GameAudio.java": "32a5026c6a4078eb19644731fb769cea84489cdf9cad73bae6efcb7585a5e78e",
+    "native_hd/android/java/org/xuanyuan/originalhd/MainActivity.java": "8c0027dc9e9eae161e41174bd80b7eebbaf2e0c3924132a5c684d99f1e34e61e",
+    "native_hd/android/offline_items.h": "8078f20a57ce491b51aae429eaa921ecb94f7bfb5197e2595e665068c33e98d8"
+  },
+  "public_scope": "Android runtime source, build tools, new synthesized audio and geometric UI; original commercial program/data and recovered HD game textures remain local.",
+  "source_hash_format": "UTF-8 with LF line endings"
+}

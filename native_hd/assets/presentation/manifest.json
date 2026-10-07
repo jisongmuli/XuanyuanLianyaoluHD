@@ -1,0 +1,37 @@
+{
+  "version": "0.7",
+  "origin": "Code-native geometric UI and Noto Sans SC vector glyph rendering (SIL OFL).",
+  "unit_scale": 1.35,
+  "effect_scale": 1.55,
+  "command_size_logical_px": 26,
+  "files": [
+    {
+      "file": "arena.png",
+      "sha256": "cc023080af1dacbcae5f422603b124bd46a850cd2c614e31cbff5f834c641609"
+    },
+    {
+      "file": "command-21830.png",
+      "sha256": "463c1600af08206dec12eb051d10f811199a0e811a907c19f3b6036f4cb01721"
+    },
+    {
+      "file": "command-25112.png",
+      "sha256": "94daceabad09e2c59a1fa2d4e741c8a1d133840b1179df035100269e14ea2ab5"
+    },
+    {
+      "file": "command-25216.png",
+      "sha256": "e97bfb339e14defec07c2e6e5b9180c02e98cb08f38d9933403b5d1d0fd2c313"
+    },
+    {
+      "file": "command-25910.png",
+      "sha256": "bc76c684bc1da38c4f50bc63b75fe5edf110107cc61cfba981d0bb76c21b62d5"
+    },
+    {
+      "file": "command-29289.png",
+      "sha256": "f55bc2e7d346d233c1b822ec0a400d225cc11025fc6b209952a2e8fcacdcc944"
+    },
+    {
+      "file": "command-30772.png",
+      "sha256": "6c7f91e82fc6b39a179a96045ba74c30a07a142840136db72168bf624240d1a9"
+    }
+  ]
+}
